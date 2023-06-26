@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Widget Example Test I changed title',
+      title: 'Widget Example Test2',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -40,7 +40,7 @@ class _WidgetExampleState extends State<WidgetApp> {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.all(15),
-                child: Text('flutter'),
+                child: Text('flutter2'),
               ),
               Padding(
                 padding: EdgeInsets.only(left: 20, right: 20),
